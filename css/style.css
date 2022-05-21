@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
+
+/* scrren1 */
+
+@import "header.css";
+@import "main.css";
+@import "buttons.css";
+@import "song.css";
+@import "bar__fix.css";
+
+/* scrren2 */
+@import "main__song.css";
+@import "play__bar.css";
+@import "nav.css";
+
+
+@import "reset.css";
+
+body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    font-weight: 700;
+}
+.box__to--big{
+    width: 940px;
+    height: 870px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.scrren{
+    width: 350px;
+    height: 740px;
+    background-color: white;
+    border-radius: 30px;
+}
+

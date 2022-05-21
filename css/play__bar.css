@@ -1,0 +1,47 @@
+.play__bar{
+    width: 350px;
+    margin-bottom: 35px;
+}
+.play__bar--time{
+    padding: 0px 47px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 3.5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+.play__bar--bar{
+    width: 350px;
+    position: absolute;
+    display: flex;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.play__bar--playing{
+    border-radius: 30px;
+    width: 155px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    margin-left: 29px;
+}
+.play__bar--dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: -2.5px;
+    right: 7.5px;
+}
+.play__bar--stop{
+    border-radius: 30px;
+    width: 155px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    right: 25px;
+}

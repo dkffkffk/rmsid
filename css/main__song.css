@@ -1,0 +1,28 @@
+.main__song{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.main__song--img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.main__song--text{
+    width: 350px;
+    height: 60px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 30px;
+}
+.main__text--name{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
